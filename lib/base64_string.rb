@@ -6,7 +6,7 @@ class String
     [nil, :strict, :urlsafe].each do |p|
       m = p.nil? ? s : "#{p}_#{s}"
       define_method(m) { Base64.send m, self }
-      define_method("#{m}!") { replace m }
+      define_method("#{m}!") { replace self.send(m) }
     end
   end
 end
