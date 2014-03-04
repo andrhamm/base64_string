@@ -5,7 +5,7 @@ require 'base64_string/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "base64_string"
-  spec.version       = StringBase64::VERSION
+  spec.version       = Base64String::VERSION
   spec.authors       = ["Andrew Hammond"]
   spec.email         = ["andrew@evertrue.com"]
   spec.summary       = %q{Add Base64 methods to Ruby's String class}
