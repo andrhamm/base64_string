@@ -1,4 +1,4 @@
-require "string_base64/version"
+require "base64_string/version"
 require 'base64'
 
 class String

@@ -1,4 +1,4 @@
-# string_base64
+# base64_string
 
 Adds Base64 methods to Ruby's String class.
 
@@ -6,7 +6,7 @@ Adds Base64 methods to Ruby's String class.
 
 Add this line to your application's Gemfile:
 
-    gem 'string_base64'
+    gem 'base64_string'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install string_base64
+    $ gem install base64_string
 
 ## Usage
 

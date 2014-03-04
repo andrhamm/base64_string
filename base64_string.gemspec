@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'string_base64/version'
+require 'base64_string/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "string_base64"
+  spec.name          = "base64_string"
   spec.version       = StringBase64::VERSION
   spec.authors       = ["Andrew Hammond"]
   spec.email         = ["andrew@evertrue.com"]
